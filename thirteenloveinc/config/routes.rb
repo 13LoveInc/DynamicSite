@@ -9,26 +9,7 @@ Rails.application.routes.draw do
   root 'welcome#homepage'
 
 
-  get 'http://localhost:3000/css/bootstrap.min.css' 
-
-  get 'http://localhost:3000/css/freelancer.css'
-
-  get 'http://localhost:3000/font-awesome/css/font-awesome.min.css'
-
-  get 'http://localhost:3000/assets/javascripts/jquery.js'
-
-  get 'http://localhost:3000/assets/javascripts/bootstrap.min.js'
-
-  get 'http://localhost:3000/assets/javascripts/classie.js'
-
-  get 'http://localhost:3000/assets/javascripts/cbpAnimatedHeader.js'
-
-  get 'http://localhost:3000/assets/javascripts/jqBootstrapValidation.js'
-
-  get 'http://localhost:3000/assets/javascripts/contact_me.js'
-
-  get 'http://localhost:3000/assets/javascripts/freelancer.js'
-
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

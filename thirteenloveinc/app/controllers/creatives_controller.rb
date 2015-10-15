@@ -3,4 +3,10 @@ class CreativesController < ApplicationController
 
   def index
   end
+
+  def portfolio
+  end
+
+  def service
+  end
 end

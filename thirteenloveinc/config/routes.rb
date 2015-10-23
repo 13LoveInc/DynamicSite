@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   root 'creatives#index'
 
-  # get 'creatives/index'
+  get 'creatives/index'
 
-  get 'creatvies/service/:id' => 'creatives#service'
+  get 'creatvies/services/:id' => 'creatives#services'
   
   get 'creatives/portfolio/:id' => 'creatives#portfolio'
 

@@ -7,6 +7,7 @@ class CreativesController < ApplicationController
   def portfolio
   end
 
-  def service
+  def services
   end
+
 end

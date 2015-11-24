@@ -10,4 +10,8 @@ class CreativesController < ApplicationController
   def services
   end
 
+  def blogs
+  	
+  end
+
 end
